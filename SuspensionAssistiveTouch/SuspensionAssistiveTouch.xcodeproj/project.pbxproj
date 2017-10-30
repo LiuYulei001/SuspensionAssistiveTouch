@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3670FF191FA6BFBB00A5233A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3670FF181FA6BFBA00A5233A /* icon.png */; };
+		3670FF201FA6C18600A5233A /* header@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3670FF1E1FA6C18600A5233A /* header@3x.png */; };
+		3670FF211FA6C18600A5233A /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3670FF1F1FA6C18600A5233A /* header@2x.png */; };
+		3670FF241FA6C1A000A5233A /* touxiang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3670FF221FA6C1A000A5233A /* touxiang@2x.png */; };
+		3670FF251FA6C1A000A5233A /* touxiang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3670FF231FA6C1A000A5233A /* touxiang@3x.png */; };
+		36D4CBBC1FA6B9270015A5C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBBB1FA6B9270015A5C8 /* AppDelegate.m */; };
+		36D4CBBF1FA6B9270015A5C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBBE1FA6B9270015A5C8 /* ViewController.m */; };
+		36D4CBC21FA6B9270015A5C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4CBC01FA6B9270015A5C8 /* Main.storyboard */; };
+		36D4CBC41FA6B9270015A5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D4CBC31FA6B9270015A5C8 /* Assets.xcassets */; };
+		36D4CBC71FA6B9270015A5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4CBC51FA6B9270015A5C8 /* LaunchScreen.storyboard */; };
+		36D4CBCA1FA6B9270015A5C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBC91FA6B9270015A5C8 /* main.m */; };
+		36D4CBD41FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBD31FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.m */; };
+		36D4CBDF1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBDE1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.m */; };
+		36D4CBF01FA6B9820015A5C8 /* SuspensionAssistiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBEE1FA6B9820015A5C8 /* SuspensionAssistiveTouch.m */; };
+		36D4CBFB1FA6B9AF0015A5C8 /* PersonalCenterMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBF61FA6B9AF0015A5C8 /* PersonalCenterMainView.m */; };
+		36D4CBFC1FA6B9AF0015A5C8 /* PersonalCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBF81FA6B9AF0015A5C8 /* PersonalCenterView.m */; };
+		36D4CBFF1FA6BC7D0015A5C8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4CBFE1FA6BC7D0015A5C8 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D4CBD01FA6B9270015A5C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D4CBAF1FA6B9270015A5C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D4CBB61FA6B9270015A5C8;
+			remoteInfo = SuspensionAssistiveTouch;
+		};
+		36D4CBDB1FA6B9280015A5C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D4CBAF1FA6B9270015A5C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D4CBB61FA6B9270015A5C8;
+			remoteInfo = SuspensionAssistiveTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3670FF181FA6BFBA00A5233A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3670FF1E1FA6C18600A5233A /* header@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@3x.png"; sourceTree = "<group>"; };
+		3670FF1F1FA6C18600A5233A /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
+		3670FF221FA6C1A000A5233A /* touxiang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touxiang@2x.png"; sourceTree = "<group>"; };
+		3670FF231FA6C1A000A5233A /* touxiang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touxiang@3x.png"; sourceTree = "<group>"; };
+		3670FF261FA6C3C500A5233A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		36D4CBB71FA6B9270015A5C8 /* SuspensionAssistiveTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspensionAssistiveTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D4CBBA1FA6B9270015A5C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36D4CBBB1FA6B9270015A5C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36D4CBBD1FA6B9270015A5C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36D4CBBE1FA6B9270015A5C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36D4CBC11FA6B9270015A5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36D4CBC31FA6B9270015A5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36D4CBC61FA6B9270015A5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36D4CBC81FA6B9270015A5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4CBC91FA6B9270015A5C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36D4CBCF1FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionAssistiveTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D4CBD31FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionAssistiveTouchTests.m; sourceTree = "<group>"; };
+		36D4CBD51FA6B9270015A5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4CBDA1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionAssistiveTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D4CBDE1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionAssistiveTouchUITests.m; sourceTree = "<group>"; };
+		36D4CBE01FA6B9280015A5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4CBEE1FA6B9820015A5C8 /* SuspensionAssistiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionAssistiveTouch.m; sourceTree = "<group>"; };
+		36D4CBEF1FA6B9820015A5C8 /* SuspensionAssistiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionAssistiveTouch.h; sourceTree = "<group>"; };
+		36D4CBF51FA6B9AF0015A5C8 /* PersonalCenterMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterMainView.h; sourceTree = "<group>"; };
+		36D4CBF61FA6B9AF0015A5C8 /* PersonalCenterMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterMainView.m; sourceTree = "<group>"; };
+		36D4CBF71FA6B9AF0015A5C8 /* PersonalCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterView.h; sourceTree = "<group>"; };
+		36D4CBF81FA6B9AF0015A5C8 /* PersonalCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterView.m; sourceTree = "<group>"; };
+		36D4CBFD1FA6BC7C0015A5C8 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		36D4CBFE1FA6BC7D0015A5C8 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D4CBB41FA6B9270015A5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4CBCC1FA6B9270015A5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4CBD71FA6B9280015A5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D4CBAE1FA6B9270015A5C8 = {
+			isa = PBXGroup;
+			children = (
+				36D4CBB91FA6B9270015A5C8 /* SuspensionAssistiveTouch */,
+				36D4CBD21FA6B9270015A5C8 /* SuspensionAssistiveTouchTests */,
+				36D4CBDD1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests */,
+				36D4CBB81FA6B9270015A5C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36D4CBB81FA6B9270015A5C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D4CBB71FA6B9270015A5C8 /* SuspensionAssistiveTouch.app */,
+				36D4CBCF1FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.xctest */,
+				36D4CBDA1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D4CBB91FA6B9270015A5C8 /* SuspensionAssistiveTouch */ = {
+			isa = PBXGroup;
+			children = (
+				36D4CBED1FA6B97A0015A5C8 /* SuspensionAssistiveTouch */,
+				36D4CBBA1FA6B9270015A5C8 /* AppDelegate.h */,
+				36D4CBBB1FA6B9270015A5C8 /* AppDelegate.m */,
+				36D4CBBD1FA6B9270015A5C8 /* ViewController.h */,
+				36D4CBBE1FA6B9270015A5C8 /* ViewController.m */,
+				36D4CBC01FA6B9270015A5C8 /* Main.storyboard */,
+				36D4CBC31FA6B9270015A5C8 /* Assets.xcassets */,
+				36D4CBC51FA6B9270015A5C8 /* LaunchScreen.storyboard */,
+				36D4CBC81FA6B9270015A5C8 /* Info.plist */,
+				36D4CBC91FA6B9270015A5C8 /* main.m */,
+			);
+			path = SuspensionAssistiveTouch;
+			sourceTree = "<group>";
+		};
+		36D4CBD21FA6B9270015A5C8 /* SuspensionAssistiveTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D4CBD31FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.m */,
+				36D4CBD51FA6B9270015A5C8 /* Info.plist */,
+			);
+			path = SuspensionAssistiveTouchTests;
+			sourceTree = "<group>";
+		};
+		36D4CBDD1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36D4CBDE1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.m */,
+				36D4CBE01FA6B9280015A5C8 /* Info.plist */,
+			);
+			path = SuspensionAssistiveTouchUITests;
+			sourceTree = "<group>";
+		};
+		36D4CBED1FA6B97A0015A5C8 /* SuspensionAssistiveTouch */ = {
+			isa = PBXGroup;
+			children = (
+				36D4CBF11FA6B9AF0015A5C8 /* MainView */,
+				3670FF261FA6C3C500A5233A /* Header.h */,
+				36D4CBEF1FA6B9820015A5C8 /* SuspensionAssistiveTouch.h */,
+				36D4CBEE1FA6B9820015A5C8 /* SuspensionAssistiveTouch.m */,
+			);
+			path = SuspensionAssistiveTouch;
+			sourceTree = "<group>";
+		};
+		36D4CBF11FA6B9AF0015A5C8 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3670FF221FA6C1A000A5233A /* touxiang@2x.png */,
+				3670FF231FA6C1A000A5233A /* touxiang@3x.png */,
+				3670FF1F1FA6C18600A5233A /* header@2x.png */,
+				3670FF1E1FA6C18600A5233A /* header@3x.png */,
+				3670FF181FA6BFBA00A5233A /* icon.png */,
+				36D4CBFD1FA6BC7C0015A5C8 /* UIView+Extension.h */,
+				36D4CBFE1FA6BC7D0015A5C8 /* UIView+Extension.m */,
+				36D4CBF51FA6B9AF0015A5C8 /* PersonalCenterMainView.h */,
+				36D4CBF61FA6B9AF0015A5C8 /* PersonalCenterMainView.m */,
+				36D4CBF71FA6B9AF0015A5C8 /* PersonalCenterView.h */,
+				36D4CBF81FA6B9AF0015A5C8 /* PersonalCenterView.m */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D4CBB61FA6B9270015A5C8 /* SuspensionAssistiveTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D4CBE31FA6B9280015A5C8 /* Build configuration list for PBXNativeTarget "SuspensionAssistiveTouch" */;
+			buildPhases = (
+				36D4CBB31FA6B9270015A5C8 /* Sources */,
+				36D4CBB41FA6B9270015A5C8 /* Frameworks */,
+				36D4CBB51FA6B9270015A5C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuspensionAssistiveTouch;
+			productName = SuspensionAssistiveTouch;
+			productReference = 36D4CBB71FA6B9270015A5C8 /* SuspensionAssistiveTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D4CBCE1FA6B9270015A5C8 /* SuspensionAssistiveTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D4CBE61FA6B9280015A5C8 /* Build configuration list for PBXNativeTarget "SuspensionAssistiveTouchTests" */;
+			buildPhases = (
+				36D4CBCB1FA6B9270015A5C8 /* Sources */,
+				36D4CBCC1FA6B9270015A5C8 /* Frameworks */,
+				36D4CBCD1FA6B9270015A5C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D4CBD11FA6B9270015A5C8 /* PBXTargetDependency */,
+			);
+			name = SuspensionAssistiveTouchTests;
+			productName = SuspensionAssistiveTouchTests;
+			productReference = 36D4CBCF1FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36D4CBD91FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D4CBE91FA6B9280015A5C8 /* Build configuration list for PBXNativeTarget "SuspensionAssistiveTouchUITests" */;
+			buildPhases = (
+				36D4CBD61FA6B9280015A5C8 /* Sources */,
+				36D4CBD71FA6B9280015A5C8 /* Frameworks */,
+				36D4CBD81FA6B9280015A5C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D4CBDC1FA6B9280015A5C8 /* PBXTargetDependency */,
+			);
+			name = SuspensionAssistiveTouchUITests;
+			productName = SuspensionAssistiveTouchUITests;
+			productReference = 36D4CBDA1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D4CBAF1FA6B9270015A5C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Rainy;
+				TargetAttributes = {
+					36D4CBB61FA6B9270015A5C8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					36D4CBCE1FA6B9270015A5C8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36D4CBB61FA6B9270015A5C8;
+					};
+					36D4CBD91FA6B9280015A5C8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36D4CBB61FA6B9270015A5C8;
+					};
+				};
+			};
+			buildConfigurationList = 36D4CBB21FA6B9270015A5C8 /* Build configuration list for PBXProject "SuspensionAssistiveTouch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D4CBAE1FA6B9270015A5C8;
+			productRefGroup = 36D4CBB81FA6B9270015A5C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D4CBB61FA6B9270015A5C8 /* SuspensionAssistiveTouch */,
+				36D4CBCE1FA6B9270015A5C8 /* SuspensionAssistiveTouchTests */,
+				36D4CBD91FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D4CBB51FA6B9270015A5C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3670FF191FA6BFBB00A5233A /* icon.png in Resources */,
+				36D4CBC71FA6B9270015A5C8 /* LaunchScreen.storyboard in Resources */,
+				3670FF241FA6C1A000A5233A /* touxiang@2x.png in Resources */,
+				3670FF201FA6C18600A5233A /* header@3x.png in Resources */,
+				3670FF251FA6C1A000A5233A /* touxiang@3x.png in Resources */,
+				3670FF211FA6C18600A5233A /* header@2x.png in Resources */,
+				36D4CBC41FA6B9270015A5C8 /* Assets.xcassets in Resources */,
+				36D4CBC21FA6B9270015A5C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4CBCD1FA6B9270015A5C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4CBD81FA6B9280015A5C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D4CBB31FA6B9270015A5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4CBFB1FA6B9AF0015A5C8 /* PersonalCenterMainView.m in Sources */,
+				36D4CBBF1FA6B9270015A5C8 /* ViewController.m in Sources */,
+				36D4CBCA1FA6B9270015A5C8 /* main.m in Sources */,
+				36D4CBF01FA6B9820015A5C8 /* SuspensionAssistiveTouch.m in Sources */,
+				36D4CBBC1FA6B9270015A5C8 /* AppDelegate.m in Sources */,
+				36D4CBFF1FA6BC7D0015A5C8 /* UIView+Extension.m in Sources */,
+				36D4CBFC1FA6B9AF0015A5C8 /* PersonalCenterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4CBCB1FA6B9270015A5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4CBD41FA6B9270015A5C8 /* SuspensionAssistiveTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D4CBD61FA6B9280015A5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D4CBDF1FA6B9280015A5C8 /* SuspensionAssistiveTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D4CBD11FA6B9270015A5C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D4CBB61FA6B9270015A5C8 /* SuspensionAssistiveTouch */;
+			targetProxy = 36D4CBD01FA6B9270015A5C8 /* PBXContainerItemProxy */;
+		};
+		36D4CBDC1FA6B9280015A5C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D4CBB61FA6B9270015A5C8 /* SuspensionAssistiveTouch */;
+			targetProxy = 36D4CBDB1FA6B9280015A5C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36D4CBC01FA6B9270015A5C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D4CBC11FA6B9270015A5C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36D4CBC51FA6B9270015A5C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D4CBC61FA6B9270015A5C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D4CBE11FA6B9280015A5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36D4CBE21FA6B9280015A5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D4CBE41FA6B9280015A5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspensionAssistiveTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.SuspensionAssistiveTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36D4CBE51FA6B9280015A5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspensionAssistiveTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.SuspensionAssistiveTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36D4CBE71FA6B9280015A5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspensionAssistiveTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.SuspensionAssistiveTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspensionAssistiveTouch.app/SuspensionAssistiveTouch";
+			};
+			name = Debug;
+		};
+		36D4CBE81FA6B9280015A5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspensionAssistiveTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.SuspensionAssistiveTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspensionAssistiveTouch.app/SuspensionAssistiveTouch";
+			};
+			name = Release;
+		};
+		36D4CBEA1FA6B9280015A5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspensionAssistiveTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.SuspensionAssistiveTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuspensionAssistiveTouch;
+			};
+			name = Debug;
+		};
+		36D4CBEB1FA6B9280015A5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspensionAssistiveTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.SuspensionAssistiveTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuspensionAssistiveTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D4CBB21FA6B9270015A5C8 /* Build configuration list for PBXProject "SuspensionAssistiveTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4CBE11FA6B9280015A5C8 /* Debug */,
+				36D4CBE21FA6B9280015A5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D4CBE31FA6B9280015A5C8 /* Build configuration list for PBXNativeTarget "SuspensionAssistiveTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4CBE41FA6B9280015A5C8 /* Debug */,
+				36D4CBE51FA6B9280015A5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D4CBE61FA6B9280015A5C8 /* Build configuration list for PBXNativeTarget "SuspensionAssistiveTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4CBE71FA6B9280015A5C8 /* Debug */,
+				36D4CBE81FA6B9280015A5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D4CBE91FA6B9280015A5C8 /* Build configuration list for PBXNativeTarget "SuspensionAssistiveTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D4CBEA1FA6B9280015A5C8 /* Debug */,
+				36D4CBEB1FA6B9280015A5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D4CBAF1FA6B9270015A5C8 /* Project object */;
+}
